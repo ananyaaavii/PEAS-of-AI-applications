@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Applications and PEAS Descriptions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h2 {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #e2e2e2;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>AI Applications and PEAS Descriptions</h1>
+
+  <h2>Healthcare</h2>
+  <table>
+    <tr><th>AI Application</th><th>Performance Measure</th><th>Environment</th><th>Actuators</th><th>Sensors</th></tr>
+    <tr>
+      <td>AI for Disease Diagnosis</td>
+      <td>Accuracy, speed, reduction in misdiagnosis</td>
+      <td>Medical images, patient history, reports</td>
+      <td>Display findings, generate reports, suggest tests</td>
+      <td>Image scanners, EHR data, lab results</td>
+    </tr>
+    <tr>
+      <td>AI-powered Drug Discovery</td>
+      <td>Drug candidates identified, R&D time/costs, success rate</td>
+      <td>Chemical and biological data, literature</td>
+      <td>Propose molecules, simulate interactions</td>
+      <td>Protein structures, gene sequences, publications</td>
+    </tr>
+    <tr>
+      <td>Personalized Treatment Plans</td>
+      <td>Health outcomes, efficacy, satisfaction</td>
+      <td>Patient data, lifestyle, real-time monitoring</td>
+      <td>Recommend treatments, alert providers</td>
+      <td>Wearables, EHR, genomic data</td>
+    </tr>
+    <tr>
+      <td>AI Chatbots for Patient Support</td>
+      <td>Info accuracy, query resolution, satisfaction</td>
+      <td>Inquiries, knowledge base, appointment systems</td>
+      <td>Answer questions, schedule, remind</td>
+      <td>NLP, speech recognition, UI</td>
+    </tr>
+  </table>
+
+  <h2>Agriculture</h2>
+  <table>
+    <tr><th>AI Application</th><th>Performance Measure</th><th>Environment</th><th>Actuators</th><th>Sensors</th></tr>
+    <tr>
+      <td>Precision Farming</td>
+      <td>Yield, resource use, disease detection</td>
+      <td>Fields, soil, weather, pests</td>
+      <td>Irrigation, pesticide application</td>
+      <td>Drones, soil sensors, weather stations</td>
+    </tr>
+    <tr>
+      <td>Autonomous Farm Robotics</td>
+      <td>Weeding efficiency, labor reduction</td>
+      <td>Farmland, crop rows, weeds</td>
+      <td>Robotic arms, herbicide sprayers</td>
+      <td>Vision cameras, GPS, LiDAR</td>
+    </tr>
+    <tr>
+      <td>Livestock Monitoring</td>
+      <td>Illness detection, welfare, feed optimization</td>
+      <td>Livestock, barns, feed stations</td>
+      <td>Alert farmers, adjust feed</td>
+      <td>RFID, wearables, acoustic sensors</td>
+    </tr>
+    <tr>
+      <td>Supply Chain Optimization</td>
+      <td>Waste reduction, freshness, logistics</td>
+      <td>Warehouses, routes, demand/weather</td>
+      <td>Schedule deliveries, forecast demand</td>
+      <td>IoT, inventory systems, market data</td>
+    </tr>
+  </table>
+
+  <h2>Education</h2>
+  <table>
+    <tr><th>AI Application</th><th>Performance Measure</th><th>Environment</th><th>Actuators</th><th>Sensors</th></tr>
+    <tr>
+      <td>Personalized Learning Platforms</td>
+      <td>Engagement, outcomes, retention</td>
+      <td>Student data, materials, preferences</td>
+      <td>Adapt content, recommend resources</td>
+      <td>Clicks, quiz results, input</td>
+    </tr>
+    <tr>
+      <td>Automated Grading</td>
+      <td>Accuracy, time saved, feedback quality</td>
+      <td>Assignments, rubrics, answer keys</td>
+      <td>Grade, provide feedback</td>
+      <td>NLP, OCR, code tools</td>
+    </tr>
+    <tr>
+      <td>Intelligent Tutoring</td>
+      <td>Skill improvement, confidence</td>
+      <td>Subjects, student knowledge</td>
+      <td>Explain, guide, practice</td>
+      <td>Input, error patterns, time</td>
+    </tr>
+    <tr>
+      <td>Admin Assistants for Educators</td>
+      <td>Task efficiency, communication</td>
+      <td>Schedules, records, platforms</td>
+      <td>Schedule, remind, generate reports</td>
+      <td>Email, calendars, voice input</td>
+    </tr>
+  </table>
+
+  <h2>Business</h2>
+  <table>
+    <tr><th>AI Application</th><th>Performance Measure</th><th>Environment</th><th>Actuators</th><th>Sensors</th></tr>
+    <tr>
+      <td>Customer Service Chatbots</td>
+      <td>Satisfaction, resolution rate, cost savings</td>
+      <td>Inquiries, knowledge base, CRM</td>
+      <td>Answer, route, transact</td>
+      <td>NLP, sentiment analysis, DBs</td>
+    </tr>
+    <tr>
+      <td>Predictive Sales Analytics</td>
+      <td>Conversion, retention, forecast accuracy</td>
+      <td>Customer and market data</td>
+      <td>Recommend, personalize, predict</td>
+      <td>CRM, analytics, social media</td>
+    </tr>
+    <tr>
+      <td>Fraud Detection</td>
+      <td>Fraud reduction, speed, accuracy</td>
+      <td>Transactions, account activity</td>
+      <td>Block, alert, report</td>
+      <td>Logs, login data, geo info</td>
+    </tr>
+    <tr>
+      <td>Supply Chain Optimization</td>
+      <td>Cost reduction, efficiency</td>
+      <td>Inventory, logistics, demand</td>
+      <td>Optimize storage/shipping</td>
+      <td>RFID, GPS, sales data</td>
+    </tr>
+  </table>
+
+  <h2>Government</h2>
+  <table>
+    <tr><th>AI Application</th><th>Performance Measure</th><th>Environment</th><th>Actuators</th><th>Sensors</th></tr>
+    <tr>
+      <td>Smart City Traffic</td>
+      <td>Congestion reduction, safety</td>
+      <td>Traffic flow, weather, reports</td>
+      <td>Adjust lights, reroute, alert</td>
+      <td>Cameras, road/GPS/weather sensors</td>
+    </tr>
+    <tr>
+      <td>Public Service Chatbots</td>
+      <td>Satisfaction, workload reduction</td>
+      <td>Inquiries, databases, FAQs</td>
+      <td>Answer, assist, redirect</td>
+      <td>NLP, voice recognition, UI</td>
+    </tr>
+    <tr>
+      <td>Predictive Policing</td>
+      <td>Crime reduction, response time</td>
+      <td>Crime/social data, calls</td>
+      <td>Hotspot ID, patrol route</td>
+      <td>Databases, GIS, sensors</td>
+    </tr>
+    <tr>
+      <td>Disaster Management</td>
+      <td>Casualty reduction, coordination</td>
+      <td>Weather, emergency, infrastructure</td>
+      <td>Deploy resources, forecast</td>
+      <td>Satellites, drones, comms</td>
+    </tr>
+  </table>
+</body>
+</html>
